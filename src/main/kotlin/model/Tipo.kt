@@ -29,7 +29,7 @@ enum class Tipo(var vantagens: List<Tipo>) {
             TERRA.vantagens = listOf(FOGO, ELETRICO)
             VOADOR.vantagens = listOf(GRAMA)
             INSETO.vantagens = listOf(GRAMA)
-            FANTASMA.vantagens = listOf(NORMAL) // Exemplo, sem efeito
+            FANTASMA.vantagens = listOf(NORMAL)
             PSIQUICO.vantagens = listOf(VENENO)
             LUTADOR.vantagens = listOf(NORMAL, PEDRA)
             GELO.vantagens = listOf(GRAMA, VOADOR)
